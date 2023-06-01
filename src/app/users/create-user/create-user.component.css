@@ -1,0 +1,32 @@
+.box{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:#154360;
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+}
+legend{
+    text-align: center;
+}
+input{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    
+    border-radius: 5px;
+}
+#btn-cadastrar{
+    background-color: #337ab7;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}

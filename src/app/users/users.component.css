@@ -1,0 +1,21 @@
+h1{
+  text-align: center;
+}
+.table-bg {
+  background-color: #003159;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+}
+
+table thead{
+  text-align: center;
+}
+
+table td{
+  border: 1px solid;
+}
+
+a{
+  margin: 0 1px;
+  
+}

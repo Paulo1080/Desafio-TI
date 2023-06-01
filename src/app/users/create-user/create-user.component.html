@@ -1,0 +1,28 @@
+
+
+<div class="box">
+    <legend><b>Cadastrar Usuário</b></legend>
+    <input  placeholder="Insira o nome" [(ngModel)]="request.name">
+  
+  <br><br>
+  
+    <input placeholder="Insira a Sobrenome" [(ngModel)]="request.last_name">
+  
+  <br><br>
+  
+    <input placeholder="Insira a profissão" [(ngModel)]="request.job">
+  
+  <br><br>
+  
+    <input placeholder="Insira a email" [(ngModel)]="request.email">
+  
+  <br><br>
+  
+    <input placeholder="Insira a idade" [(ngModel)]="request.age">
+  
+  <br><br>
+  <button id="btn-cadastrar" (click)="save()">Cadastrar</button>
+</div>
+
+<br><br>
+
